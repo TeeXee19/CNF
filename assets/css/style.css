@@ -10751,3 +10751,56 @@ border: 1px solid aliceblue;
 .navbar-opaque{
   background-color: #0d0d0d2b;
 }
+
+
+.client_title {
+  position: relative;
+  margin-bottom: 25px;
+}
+.client_title .title {
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 30px;
+}
+.client_title .title:before {
+  width: 50px;
+  content: " ";
+  position: absolute;
+  border-bottom: solid 3px #7dcbd2;
+  left: 0;
+  top: 0;
+}
+
+.pd50 {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+.client_item {
+  opacity: 0.3;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+.client_item img {
+  display: block;
+  max-width: 130px;
+  margin: 10px auto;
+}
+.client_item:hover {
+  opacity: 1;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+
+aside.clients img {
+  margin: 50px auto; }
+
+
+.clients_box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px 20px;
+  align-items: center;
+}
