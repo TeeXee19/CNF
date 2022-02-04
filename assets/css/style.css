@@ -33,7 +33,7 @@ body {
 }
 
 ::selection {
-  background-color: #251986;
+  background-color: #026927;
   color: #ffffff;
   text-shadow: none;
 }
@@ -2972,7 +2972,7 @@ table tbody tr td {
 .navbar-nav > li > a:focus,
 .navbar-nav > li > a:hover {
   background-color: transparent;
-  color: #251986;
+  color: #026927;
 }
 
 /* Menu Level #1 */
@@ -2988,7 +2988,7 @@ table tbody tr td {
   margin: auto;
   width: 0;
   height: 3px;
-  background: #251986;
+  background: #026927;
   content: "";
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -2997,7 +2997,7 @@ table tbody tr td {
 
 .navbar-nav > li > .menu-item:hover::before,
 .navbar-nav > li.active > .menu-item:before {
-  background-color: #251986;
+  background-color: #026927;
   width: 21px;
 }
 
@@ -10803,4 +10803,20 @@ aside.clients img {
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 20px 20px;
   align-items: center;
+}
+
+.clients_main{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 20px 20px;
+  align-items: center;
+}
+
+.vision-text{
+  font-size: 21px;
+  font-weight: normal;
+  font-family: Poppins;
+  font-style: normal;
+  line-height: 23px;
 }
